@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row justify-content-center ">
+        <form class="col-5 caja">
+            <mat-form-field class="example-full-width form-check-input texto">
+                <mat-label>Nombre</mat-label>
+                <input matInput id="nombre" value="" placeholder="Ingrese Nombre">
+            </mat-form-field>
+            <mat-form-field class="example-full-width form-check-input texto">
+                <mat-label>Contraseña</mat-label>
+                <input matInput type="password" id="password" value="" placeholder="Ingrese contraseña">
+            </mat-form-field>
+            <button class="form-control" (click)="guardarUsuario()" mat-raised-button color="primary">Iniciar Sesion</button>
+        </form>
+    </div>
+</div>
